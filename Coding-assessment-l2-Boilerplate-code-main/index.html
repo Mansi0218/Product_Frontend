@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
+    <title>Product</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Your code goes here -->
+    <div class="productDetails">
+      <div class="productImages">
+        <img id="mainImg" src="" alt="" />
+        <div id="thumbnailContainer"></div>
+      </div>
+
+      <div class="productInfo">
+        <h1 id="productVendor"></h1>
+        <h2 id="productTitle"></h2>
+
+        <hr />
+        <div class="PriceDetails">
+          <p id="price">Price</p>
+          <p id="discount"></p>
+        </div>
+
+        <p id="comparePrice"></p>
+        <hr />
+
+        <p class="color">Choose a Color</p>
+        <div id="colorSelector"></div>
+
+        <hr />
+
+        <p class="size">Choose a size</p>
+        <div id="sizeSelector"></div>
+
+        <div class="quantitySelector">
+          <div class="cart">
+            <button class="plus-minus-button">
+              <span class="minus">-</span>
+              <span class="num" id="num">0</span>
+              <span class="plus">+</span>
+            </button>
+            <button id="AddToCart">
+              <i class="fa fa-shopping-bag"></i> Add to Cart
+            </button>
+          </div>
+
+          <span class="addToCartMessage" id="addToCartMessage"></span>
+        </div>
+
+        <hr />
+        <p id="description">Description</p>
+      </div>
+    </div>
+    <!-- Happy coding 😊 -->
+    <script src="./script.js"></script>
+  </body>
+</html>
